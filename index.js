@@ -10,6 +10,6 @@ btnLogin.addEventListener('click', event => {
 form.addEventListener('animationend', event => {
     if(event.animationName == 'top') {
         form.style.display = 'none';
-        window.location.href = 'site.html';
+        window.location.href = 'page2.html';
     }
 });
